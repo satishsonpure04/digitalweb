@@ -75,6 +75,7 @@ html,body{
     border-radius: 50px;
     border:1px solid #222;
     margin: 20px;
+    height: 17px;
     position: relative;
     overflow: hidden;
 
@@ -91,9 +92,9 @@ html,body{
 }
 #nav #part2 a:nth-last-child(1) h5{
     font-weight: 100;
-    position: relative;
+    /* position: inherit; */
     z-index: 99;
-   
+    margin-top: 1px;
     width: 80px;
 }
 
